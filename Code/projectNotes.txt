@@ -1,0 +1,14 @@
+compare colony specific lambda with buoy data on
+   wave height  
+   wave direction
+   tide
+  
+use SF buoy Station 46026
+
+or bodega?  
+
+dependent variable...annual lambda by colony
+max wave height?
+days above set height
+high wave coincide with high tide?  what is tide threshold
+direction

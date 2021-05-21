@@ -1,0 +1,45 @@
+## note from Sarah 01/04/2019
+following sites were growing or changing and weather may effect their growth
+
+Lost Coast (no data yet). Unknown
+Point Reyes.              Yes
+Farallones storms         limited access
+Ano                       NEED INFO FROM SARAH
+Gorda Cape San Martin     NEED INFO FROM SARAH
+Peidras Blancas           yes
+San Miguel                source
+Santa Rosa                yes
+San Nicolas               source
+Santa Barbara             not likely
+San Clemente              not likely
+
+## Some ideas
+## MARSS
+    set sampling error to zero (R.model=matrix(0, nrow = 4, ncol = 4))
+    set time period to california site communication
+    set covariancve to be negative for nor cal colonies
+    develop values for "excess" females each year by site and use those values in MARSS
+      compare time series births to next years births @ 95% pupping rate
+        Y1: births
+        Y3: births should be 0.95*0.95*survivorship
+        ANI and mainland: 
+          pup survival mainland 91.8(90-93.6), island 71.2(66.3-75.9)
+          natality = 97.5(95-99)
+          
+      assume 50/50 sex ratio (need cite)
+      #Point Reyes.             
+      #Farallones storms         
+      #Ano                       
+      #Gorda Cape San Martin    
+      
+      
+
+Are current PORE expansion rates including immigration? 
+    calculate how much growth rate is faster than predicted by pupping
+    need 2 year lag for females?
+
+####################################
+4 site with MEI best model
+try adding gorda and possibly all sites and then see what U's are significant with bootstrap.
+    
+

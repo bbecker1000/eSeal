@@ -1,0 +1,56 @@
+Rick Condit Notes Jan 2020
+
+Ben, the quick way to get this done would be to send me a table with
+female counts and days. With every year in a single table, I can finish
+all the calculations in a few minutes. I've done it for Mark Lowry a few
+times.
+
+If you can convert the day each year into a count of days since 1
+December, that's what I use. That is, 1=1Dec, 2=2Dec, etc until 32=1Jan
+etc and 63=1Feb. Then I want a season column, where season=2020 includes
+Dec 2019 plus Jan-Mar 2020. So 3 total columns of data: season, day,
+female count.
+
+At some point, I will get code set up for you to use, but that will take
+more time.
+
+####--------------------------------------------
+
+Results note from RC:
+
+Ben and Sarah, here are all the results. Best now is for you to look
+through the graphs, which show the counts and the fitted curve. For
+starters, make sure outliers aren't simple errors, maybe just typos.
+Once you're convinced errors are removed as best as possible, then maybe
+you can account for some of the odd fluctuations by storm-induced
+movements. But I notice that every year since 2011 at Drake and the
+combined area, the models always fit counts very smoothly, and in most
+years the fit is good. It's 3-4 odd years I wonder about.
+
+The tables give estimated population size and the mean arrival date,
+with 95% credible intervals for each. 
+
+The arrival date is the date in January. The Pt Reyes dates closely match Año Nuevo arrival, around
+11-13 Jan. The estimate census peak is given on the graphs, often 28-29
+Jan, just as at Año Nuevo. (Notice that the peak date sometimes moves to
+February, and peak=33 means 2 Feb.)  I've run this with Mark Lowry's
+counts from the Channel Islands, and  those sites have the same arrival
+dates too.
+
+The next result you could check is whether the 3 sites add up to the
+total every year. This usually works at Año Nuevo, where I fit
+mainland-south, mainland-north, and island separately, then the total.
+If there are years where it doesn't match, it might be because many
+females moved in one direction. Then I would think the total is most
+reliable.
+
+An important feature of the calculations now is aimed to handle many
+years of data from one site, such as this. Unlike what I published in
+2007, the current model uses arrival information from all years
+together, and in years with few censuses, it makes use of the mean
+arrival date from the entire data. This shows up clearly in your data in
+2019, where it does just what it's supposed to. Without any counts in
+the first half of the season, there is no way of estimating the arrival
+information, but it comes up with a good curve by assuming the arrival
+date matches other years. You'll also see this in the very early years,
+where the model attempts to come up with a curve matching the few counts.
